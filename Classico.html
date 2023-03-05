@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="Inicio.css">
-    <title>PAS FILMES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
         <nav class="navigation">
             <a href="#"><img src="logo.png" alt="/" class="logo"></a>
-            <div class="search-box">
-                <input type="text" class="search-text" placeholder="Pesquisar...">
-                <a class="search-btn">
-                    <img class ="loupe-blue" src="./loupe-blue.svg" alt="">
-                    <img class ="loupe-white" src="./loupe-white.svg" alt="">
-                </a>
+            <div class="container">
+                <div class="search">
+                <a href="" target="_blank" hidden></a>
+                <input type="text" placeholder="Pesquisar...">
+                <div class="list">
+                </div>
+                <div class="icon"><ion-icon name="search-outline"></ion-icon></div>
+                </div>
             </div>
+            
+            <script src="sugestoes.js"></script>
+            <script src="script.js"></script>
             <ul>
                 <li>
                     <a href="Inicio.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="Minha lista.html">Minha lista</a>
                 </li>
                 <li>
                     <a href="Ação.html">Ação</a>
@@ -48,52 +51,113 @@
         </nav>
     </header>
 
+<div class="grid">
+
 
 <div class="item">
     <h2>A Casinha Pequenina</h2>
     <img src="Casinha Pequenina.jpg" alt="Casinha Pequenina" height="380" width="300">
-    <p>Chico é um colono que tenta proteger os escravos maltratados por seu patrão, Coronel Pedro. 
+    <p class="descricao">Chico é um colono que tenta proteger os escravos maltratados por seu patrão, Coronel Pedro. 
         Para isso, conta com a ajuda do filho mais velho do escravocrata, defensor de um tratamento mais humano para os trabalhadores.</p>
     <p>Data de lançamento: 1963 (mundial)</p>
     <p>Diretor: Glauco Mirko Laurelli</p>
     <p>Roteiro: Milton Amaral</p>    
-    <a class="Assistir" href="/">Assistir</a> 
-    <a class="Minha lista" href="/">Minha lista</a>
+    <button>Assistir</button> 
 </div>
 
 <div class="item">
     <h2>Jeca Seu Filho Preto</h2>
     <img src="Jeca Seu Filho Preto.jpg" alt="Jeca Seu Filho Preto" height="380" width="300">
-    <p>Tímido, desajeitado e simplório, Zé é pai de Antenor, um rapaz misteriosamente afrodescendente que se apaixona pela filha de um rico fazendeiro e 
+    <p class="descricao">Tímido, desajeitado e simplório, Zé é pai de Antenor, um rapaz misteriosamente afrodescendente que se apaixona pela filha de um rico fazendeiro e 
         precisa lutar contra o preconceito.</p>
     <p>Data de lançamento: 1978 (mundial)</p>
     <p>Diretor: Pio Zamuner</p>    
     <p>Roteiro: Rajá de Aragão; Amácio Mazzaropi</p>
-    <a class="Assistir" href="/">Assistir</a> 
-    <a class="Minha lista" href="/">Minha lista</a>
+    <button>Assistir</button> 
 </div>
 
 <div class="item">
     <h2>Nadando em Dinheiro</h2>
     <img src="Nadando em Dinheiro.PNG" alt="/" height="380" width="300">
-    <p>Isidoro, um motorista de caminhão, é contratado para transportar uma mudança para Santos. 
+    <p class="descricao">Isidoro, um motorista de caminhão, é contratado para transportar uma mudança para Santos. 
         A partir daí, cenas de humor, nas quais são misturadas sátira e irreverência, marcam o desenrolar da viagem.</p>
     <p>Data de lançamento: 1952 (mundial)</p>
     <p>Diretores: Abílio Pereira de Almeida, Carlos Arthur Thiré</p> 
-    <a class="Assistir" href="/">Assistir</a> 
-    <a class="Minha lista" href="/">Minha lista</a>   
+    <button>Assistir</button> 
 </div>
 
 <div class="item">
     <h2> O Casamento dos Trapalhões</h2>
     <img src="casamento dos trapalhões.jpg" alt="/" height="380" width="300">
-    <p>Os irmãos Didi, Dedé, Mussum e Zacarias são pessoas simples que vivem em uma fazenda. A irmã deles lhes escreve uma carta pedindo para que deixem seus sobrinhos, os integrantes do Grupo Dominó passarem um período na fazenda, pois os garotos iriam se apresentar na cidade. 
+    <p class="descricao">Os irmãos Didi, Dedé, Mussum e Zacarias são pessoas simples que vivem em uma fazenda. A irmã deles lhes escreve uma carta pedindo para que deixem seus sobrinhos, os integrantes do Grupo Dominó passarem um período na fazenda, pois os garotos iriam se apresentar na cidade. 
         Os Trapalhões vão, então, encontrar com os sobrinhos, mas eles acabam se envolvendo em muita confusão e precisando se livrarem de um vilão.</p>
     <p>Data de lançamento: 1988 (mundial)
     <p> Diretor: José Alvarenga Júnior</p>
     <p> Distribuição: Embrafilme </p>
     <p>Lançamento: 2 de dezembro de 1988 </p>
     <p>Roteiro: Mauro Wilson; Paulo Andrade; Carlos Alberto Diniz</p>
-    <a class="Assistir" href="/">Assistir</a> 
-    <a class="Minha lista" href="/">Minha lista</a>   
+    <button>Assistir</button>    
 </div>
+</div>
+<footer>
+    <div class="container-footer">
+        <div class="row-footer">
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>PAS Filmes</h4>
+                <ul>
+                    <li><a href="#"> Quem somos </a></li>
+                    <li><a href=""> nossos serviços </a></li>
+                    <li><a href=""> política de privacidade </a></li>
+                </ul>
+            </div>
+            <!--end footer col-->
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>Obter ajuda</h4>
+                <ul>
+                    <li><a href="#">Status De Pedido</a></li>
+                    <li><a href="#">Opções De Pagamento</a></li>
+                    <li><a href="#">Preferências de cookies</a></li>
+                </ul>
+            </div>
+            <!--end footer col-->
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Entre em Contato</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <!--end footer col-->
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>Para receber novidades!</h4>
+                <div class="form-sub">
+                    <form>
+                        <input type="email" placeholder="Digite o seu e-mail" required>
+                    </form>
+                </div>
+
+                <div class="medias-socias">
+                    <a href="#"> <i class="fa fa-facebook"></i> </a>
+                    <a href="#"> <i class="fa fa-instagram"></i> </a>
+                    <a href="#"> <i class="fa fa-twitter"></i> </a>
+                    <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                </div>
+
+            </div>
+            <!--end footer col-->
+        </div>
+    </div>
+</footer>
+
+    <div id="footer_copyright">
+        &#169
+        2023 PAS Filmes. Todos os direitos reservados.
+    </div>
+</footer>
+</body>
+</html>
